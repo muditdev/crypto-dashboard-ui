@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --primary-font: "Inter", sans-serif;
+  --body-bg: #f6f8fa;
+  --color-white: #fff;
+  --color-border: #e1e4e8;
+  --base-fontsize: 14px;
+  --color-text-primary: #24292e;
+  --color-text-muted: #959da5;
+  --color-text-light: #6a737d;
+  --color-gray: #c4c4c4;
+  --bg-hover: #f5f7ff;
+  --color-success: #8bc34a;
+}
+body {
+  margin: 0;
+  font-family: var(--primary-font);
+  background-color: var(--body-bg);
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+// utils
+.v-saperator {
+  width: 2px;
+  background-color: var(--color-border);
+  margin: 0.35rem;
+}
+h2,
+h3,
+.heading {
+  color: var(--color-text-primary);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+hr {
+  background: var(--color-border);
+  opacity: 1;
+}
+// overwrites
+.btn-link {
+  color: var(--color-text-light);
+  text-decoration: none;
+  padding: 0;
+}
